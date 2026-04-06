@@ -1,0 +1,10 @@
+model: resnet50
+dataset: cifar10
+batch_size: 128
+epochs: 10
+optimizations:
+  - baseline
+  - amp
+  - compile
+  - efficient_dataloader
+  - all_combined

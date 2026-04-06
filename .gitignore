@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+.pytest_cache/
+venv/
+data/
+profiles/*.json
+profiles/*.txt
+benchmarks/*.json
+*.pt
+*.onnx
